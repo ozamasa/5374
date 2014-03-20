@@ -21,7 +21,7 @@
 
 
 ##提供されるゴミ情報について
-金沢市が公開しているオープンデータをもとにしています。
+塩尻市が公開している[資源物・ごみ収集カレンダー](http://www.city.shiojiri.nagano.jp/kurashi/recycle/gomicalendar.html)をもとにデータ化したものを使用しています。
 
 ##開発チームとライセンスについて
 - 小野 祐貴(Yuki ONO)　Developer
