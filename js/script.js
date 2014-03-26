@@ -324,8 +324,8 @@ $(function() {
   }
 
   function updateAreaList() {
-//    csvToArray("data/area_days.csv", function(tmp) {
-    csvToArray("https://docs.google.com/spreadsheet/pub?key=0AtoUP9D-VFLudDl6OEdZY1U4bXFGTjEyeWllNUw1M3c&output=csv", function(tmp) {
+    csvToArray("data/area_days.csv", function(tmp) {
+//    csvToArray("https://docs.google.com/spreadsheet/pub?key=0AtoUP9D-VFLudDl6OEdZY1U4bXFGTjEyeWllNUw1M3c&output=csv", function(tmp) {
       var area_days_label = tmp.shift();
       for (var i in tmp) {
         var row = tmp[i];
@@ -402,6 +402,7 @@ $(function() {
         descriptions.push(new DescriptionModel(data[i]));
       }
 
+//      csvToArray("data/target.csv", function(data) {
       csvToArray("https://docs.google.com/spreadsheet/pub?key=0AtoUP9D-VFLudFVFZnlKZHM3SWxmMkZJSGM2QWRMb2c&output=csv", function(data) {
 
         data.shift();
