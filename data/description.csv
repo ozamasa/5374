@@ -1,5 +1,13 @@
-label,sublabel,description,styles,bgcolor
-燃やさないごみ,,,img/moyasanai02.svg,#733b96
-資源,,,img/shigen02.svg,#77ae1f
-燃やすごみ,,,img/moyasu02.svg,#ea3b13
-びん,,,img/bin02.svg,#2dc7aa
+label,sublabel,description,styles,bgcolor,
+プラスチック製容器包装,資源物,指定袋に入れて出してください。,img/shigen02.svg,#009944,千代田線グリーン
+紙類,資源物,紙類はそのまま。,img/shigen02.svg,#00a7db,東西線スカイ
+ペットボトル,資源物,ペットボトルは専用BOXに。,img/shigen02.svg,#9c4cff,谷町線 京紫
+缶類,資源物,缶類は専用BOXに。,img/shigen02.svg,#0079c2,三田線ブルー
+衣類,資源物,衣服・布類は透明な袋に。,img/shigen02.svg,#e85298,浅草線ローズ
+びん類,資源物,色ごとの専用BOXに。,img/bin02.svg,#bb641d,副都心線ブラウン
+その他金属,資源物,散らかるものだけ透明な袋で出してください。,img/shigen02.svg,#9caeb7,日比谷線シルバー
+せん定木・落ち葉,資源物,せん定木は基準のサイズで縛って。落ち葉・草は透明な袋で。,img/shigen02.svg,#6cbb5a,新宿線リーフ
+てんぷら油,資源物,専用ポリタンクに。,img/shigen02.svg,#d7c447,有楽町線ゴールド
+もえるごみ,可燃物,指定袋に入れて出してください。,img/moyasu02.svg,#f39700,銀座線オレンジ
+うめたてごみ,不燃物,指定袋に入れて出してください。,img/moyasanai02.svg,#b6007a,大江戸線ルビー
+有害ごみ,,透明な袋に入れて出してください。（蛍光灯は購入時の空き箱で）,img/moyasanai02.svg,#e60012,丸ノ内線レッド
