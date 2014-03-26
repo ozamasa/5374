@@ -7,6 +7,6 @@ const SVGLabel = false; // SVGイメージを使用するときは、true。用�
 
 const MaxDescription = 12; // ごみの最大種類、９を超えない場合は変更の必要はありません。
 
-const MaxMonth = 1;
+const MaxMonth = 3;
 
 const WeekShift = true; // 休止期間なら週をずらすときは、true。金沢の仕様は、true。
