@@ -324,8 +324,8 @@ $(function() {
   }
 
   function updateAreaList() {
-//    csvToArray("data/area_days.csv", function(tmp) {
-    csvToArray("https://docs.google.com/spreadsheet/pub?key=0AtoUP9D-VFLudDl6OEdZY1U4bXFGTjEyeWllNUw1M3c&output=csv", function(tmp) {
+    csvToArray("data/area_days.csv", function(tmp) {
+//    csvToArray("https://docs.google.com/spreadsheet/pub?key=0AtoUP9D-VFLudDl6OEdZY1U4bXFGTjEyeWllNUw1M3c&output=csv", function(tmp) {
       var area_days_label = tmp.shift();
       for (var i in tmp) {
         var row = tmp[i];
@@ -343,8 +343,8 @@ $(function() {
         }
       }
 
-//      csvToArray("data/center.csv", function(tmp) {
-      csvToArray("https://docs.google.com/spreadsheet/pub?key=0AtoUP9D-VFLudFYzalI5NkdHeTVnSDdNaXJlTVFiMnc&output=csv", function(tmp) {
+      csvToArray("data/center.csv", function(tmp) {
+//      csvToArray("https://docs.google.com/spreadsheet/pub?key=0AtoUP9D-VFLudFYzalI5NkdHeTVnSDdNaXJlTVFiMnc&output=csv", function(tmp) {
         //ゴミ処理センターのデータを解析します。
         //表示上は現れませんが、
         //金沢などの各処理センターの休止期間分は一週間ずらすという法則性のため
@@ -388,22 +388,22 @@ $(function() {
 
   function createMenuList(after_action) {
     // 備考データを読み込む
-//    csvToArray("data/remarks.csv", function(data) {
-    csvToArray("https://docs.google.com/spreadsheet/pub?key=0AtoUP9D-VFLudElQRGNWcnpnWjc2T0FSclBmNkFjalE&output=csv", function(data) {
+    csvToArray("data/remarks.csv", function(data) {
+//    csvToArray("https://docs.google.com/spreadsheet/pub?key=0AtoUP9D-VFLudElQRGNWcnpnWjc2T0FSclBmNkFjalE&output=csv", function(data) {
       data.shift();
       for (var i in data) {
         remarks.push(new RemarkModel(data[i]));
       }
     });
-//    csvToArray("data/description.csv", function(data) {
-    csvToArray("https://docs.google.com/spreadsheet/pub?key=0AtoUP9D-VFLudDJFZF9ySnI0NjVMckVaZmZJX1l4aEE&output=csv", function(data) {
+    csvToArray("data/description.csv", function(data) {
+//    csvToArray("https://docs.google.com/spreadsheet/pub?key=0AtoUP9D-VFLudDJFZF9ySnI0NjVMckVaZmZJX1l4aEE&output=csv", function(data) {
       data.shift();
       for (var i in data) {
         descriptions.push(new DescriptionModel(data[i]));
       }
 
-//      csvToArray("data/target.csv", function(data) {
-      csvToArray("https://docs.google.com/spreadsheet/pub?key=0AtoUP9D-VFLudFVFZnlKZHM3SWxmMkZJSGM2QWRMb2c&output=csv", function(data) {
+      csvToArray("data/target.csv", function(data) {
+//      csvToArray("https://docs.google.com/spreadsheet/pub?key=0AtoUP9D-VFLudFVFZnlKZHM3SWxmMkZJSGM2QWRMb2c&output=csv", function(data) {
 
         data.shift();
         for (var i in data) {
