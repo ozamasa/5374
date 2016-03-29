@@ -9,4 +9,6 @@ const MaxDescription = 12; // ごみの最大種類、９を超えない場合�
 
 const MaxMonth = 3;
 
-const WeekShift = true; // 休止期間なら週をずらすときは、true。金沢の仕様は、true。
+var WeekShift = true; // 休止期間なら週をずらすときは、true。金沢の仕様は、true。
+
+var SkipSuspend = true; // 休止期間を除去するときは、true。奈良の仕様は、true。
